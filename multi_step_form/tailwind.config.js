@@ -37,6 +37,17 @@ export default {
         main: '15px'
       }
     },
+    fontFamily: {
+      sans: ['Ubuntu', 'sans-serif']
+    },
+    fontSize: {
+      heading: '2rem',
+      'heading-mobile': '1.5rem',
+      'body-l': '1rem',
+      'body-m': '0.875rem',
+      'body-s': '0.75rem',
+      14: '0.875rem'
+    },
     
   },
   plugins: [],
