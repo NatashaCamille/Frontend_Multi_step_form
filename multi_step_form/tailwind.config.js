@@ -48,7 +48,10 @@ export default {
       'body-s': '0.75rem',
       14: '0.875rem'
     },
-    
+    screens: {
+      mobile: '375px',
+      desktop: '940px'
+    }
   },
   plugins: [],
 }
