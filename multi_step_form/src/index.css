@@ -78,3 +78,50 @@
     background-color: var(--Light-blue) !important;
     color: var(--Marine-blue) !important;
   }
+
+.error {
+    border: 2px solid var(--Strawberry-red) !important;
+  }
+
+.step {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+  
+.step-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.step-content span {
+    text-transform: uppercase;
+    color: var(--Light-gray);
+    font-size: 13px;
+}
+
+.step-content b {
+    text-transform: uppercase;
+    color: var(--White);
+}
+
+.step-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+ 
+.step-1 .header {
+    margin-bottom: auto;
+    padding-top: 2rem;
+    line-height: 2.5rem;
+}
+
+.header .title {
+    color: var(--Marine-blue);
+}
+
+.header .info {
+    color: var(--Cool-gray);
+}
