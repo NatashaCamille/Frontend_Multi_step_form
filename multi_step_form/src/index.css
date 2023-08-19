@@ -187,3 +187,37 @@ form .error {
 
 /* STEP-2 */
 
+.step-2 {
+  display: none;
+  width: 90%;
+}
+
+.step-2 form {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 2rem;
+}
+
+.card-selected {
+  border: 2px solid var(--Light-gray);
+  border-radius: 7px;
+  width: 150px;
+  height: 170px;
+  cursor: pointer;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.step-2 .info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.step-2 .info b {
+  color: var(--Marine-blue);
+}
