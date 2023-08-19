@@ -106,13 +106,13 @@
     color: var(--White);
 }
 
-.step-1 {
+.step {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
  
-.step-1 .header {
+.step .header {
     margin-bottom: auto;
     padding-top: 2rem;
     line-height: 2.5rem;
@@ -125,3 +125,65 @@
 .header .info {
     color: var(--Cool-gray);
 }
+
+.next {
+    margin-top: auto;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 7px;
+    background-color: var(--Marine-blue);
+    color: white;
+    cursor: pointer;
+}
+
+/* STEP-1 */
+
+.step-1 {
+  display: flex;
+  width: 90%;
+}
+
+.step-1 form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.label {
+  color: var(--Marine-blue);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.step-1 form input {
+  padding: 1rem;
+  border: 1px solid var(--Cool-gray);
+  border-radius: 7px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.step-1 form input:focus {
+  outline-color: var(--Purplish-blue);
+}
+
+form input::placeholder {
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+form .error {
+  display: none;
+  color: var(--Strawberry-red);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+/* STEP-2 */
+
