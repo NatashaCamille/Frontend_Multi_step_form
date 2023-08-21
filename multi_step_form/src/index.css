@@ -312,3 +312,20 @@ form .error {
 
 /* STEP-4 */
 
+.step-4 {
+  display: none;
+  width: 80%;
+}
+
+.sslection-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+.s-container {
+  background-color: var(--Magnolia);
+  padding: 1.5rem;
+}
+
