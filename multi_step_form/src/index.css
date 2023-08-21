@@ -324,8 +324,10 @@ form .error {
   flex: 1;
 }
 
-.s-container {
+.selection-container {
   background-color: var(--Magnolia);
   padding: 1.5rem;
 }
+
+
 
