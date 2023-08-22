@@ -1,14 +1,11 @@
-import { useState } from 'react'
+import React, { useState } from 'react';
+import Step_1 from './components/Step_1';
 
-
-
-function App() {
-  // const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-     
-    </>
+    <div>
+      <Step_1 />
+    </div>
   )
 }
 
