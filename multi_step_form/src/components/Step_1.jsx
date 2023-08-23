@@ -1,6 +1,10 @@
 import React from 'react';
 
-const Step_1 = () => {
+const Step_1 = ({ formData, onChange }) => {
+  const handleFieldChange = event => {
+    const { name, value } = event.target;
+    onChange(name, value);
+  };
   return (
     <div className="step">
     <h2>Step 1</h2>
