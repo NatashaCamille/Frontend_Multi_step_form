@@ -10,18 +10,18 @@ const App = () => {
   const renderStep = () => {
     switch (currentStep) {
       case 1:
-        return <Step1 formData={formData} onChange={handleFormChange} />;
+        return <Step_1 formData={formData} onChange={handleFormChange} />;
       case 2:
-        return <Step2 formData={formData} onChange={handleFormChange} />;
+        return <Step_2 formData={formData} onChange={handleFormChange} />;
       case 3:
-        return <Step3 formData={formData} onChange={handleFormChange} />;
+        return <Step_3 formData={formData} onChange={handleFormChange} />;
       case 4:
         return <Summary formData={formData} />;
       default:
         return null;
     }
   };
-  
+
   return (
     <div className="App">
       <h1>Frontend Multi-Step Form</h1>
