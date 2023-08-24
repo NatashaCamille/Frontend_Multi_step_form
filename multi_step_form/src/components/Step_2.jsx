@@ -1,6 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-const Step_2 = () => {
+const Step_2 = ({ formData, onChange}) => {
+  const handleFieldChange = event => {
+    const { name, value } = event.target;
+    onChange(name, value);
+  };
+
   return (
     <div className="step">
     <h2>Step 2</h2>
@@ -12,7 +17,7 @@ const Step_2 = () => {
       placeholder="Field 2"
     />
   </div>
-  )
-}
+  );
+};
 
-export default Step_2
+export default Step_2;
